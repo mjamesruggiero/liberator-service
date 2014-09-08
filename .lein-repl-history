@@ -1,0 +1,7 @@
+start-server
+(require 'liberator-service.repl :refer all)
+(require 'liberator-service.repl :refer :all)
+(require 'liberator-service.repl :as repl)
+(require 'liberator-service.repl :as [repl])
+(require 'liberator-service.repl :reload)
+(liberator-service.repl/start-server)
